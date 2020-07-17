@@ -1,0 +1,140 @@
+
+:root {
+
+	--bg-1: #F9F9F9;
+	--bg-2: #F1F1F1;
+
+	--text: #333;
+	--text-secondary: #4c4c4c;
+
+	--border: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root {
+		--bg-1: #191919;
+		--bg-2: #222;
+
+		--text: #fcfcfc;
+		--text-secondary: #a7a7a7;
+
+		--border: rgba(255, 255, 255, 0.2);
+	}
+}
+
+body {
+	margin: 0;
+	margin-bottom: 80px;
+	background: var(--bg-2);
+	color: var(--text-secondary);
+	font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/* Hero */
+.bg {
+	width: 100%;
+	height: 380px;
+	background: url(https://yt3.ggpht.com/p6gshfJXt4CUjdRvQRBrVrULHKELMxy5mwWQkLcBN6HiLoVCkaXBjF8_dheky2JjYbzDBmYnNg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	width: 100%;
+	padding: 20px 0;
+	background: var(--bg-1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+nav a {
+	margin: 0 20px;
+	color: inherit;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+nav a.current {
+	font-weight: 700;
+}
+
+/* Layout */
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper > .content {
+	width: calc(100% - 40px);
+	max-width: 800px;
+	margin: 40px 0;
+}
+
+.layout {
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	grid-gap: 20px;
+}
+
+.content-core .youtube {
+	width: 100%;
+	height: 300px;
+}
+.content-core iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/* Utilities */
+.title {
+	margin-top: 0;
+	color: var(--text);
+}
+
+/* Downloads */
+
+.download-button {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1rem;
+	padding: 10px 16px;
+	border: 1px solid var(--border);
+	background: transparent;
+	transition: background 150ms;
+	cursor: pointer;
+	text-align: center;
+	color: inherit;
+	text-decoration: none;
+}
+.download-button:hover {
+	background: var(--border);
+}
+.download-button + .download-button {
+	margin-top: 10px;
+}
+
+/* Core datapack content */
+ul li {
+	margin-top: 15px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 700px) {
+	.layout {
+		grid-template-columns: 100%;
+	}
+}
+
+/* skeleton elements */
+.skeleton, .youtube {
+	background: var(--border);
+	color: transparent;
+}
+
+.hidden {
+	display: none;
+}
