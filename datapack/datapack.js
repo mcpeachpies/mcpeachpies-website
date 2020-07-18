@@ -1,7 +1,3 @@
-const GIT_INFO = {
-	USERNAME: "JipFr",
-	REPO: "MCP_Datapacks"
-};
 const PAGE = location.search.slice(1);
 
 const WEB_INFO = `https://raw.githubusercontent.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/master/${PAGE}/website.json`
@@ -57,8 +53,7 @@ function render() {
 	for(let download of data.downloads) {
 		let a = document.createElement("a");
 		a.classList.add("download-button");
-		
-		a.download = true;
+
 		a.target = "_blank";
 		a.href = download.file;
 
