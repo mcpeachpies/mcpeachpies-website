@@ -21,7 +21,7 @@ async function getData() {
 		document.querySelector(".title").classList.remove("skeleton");
 
 		// Add youtube embed
-		document.querySelector(".youtube").innerHTML = `<iframe src="https://www.youtube.com/embed/p3G5IXn0K7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+		document.querySelector(".youtube-video").innerHTML = `<iframe src="https://www.youtube.com/embed/p3G5IXn0K7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 	}
 }
 
@@ -42,9 +42,9 @@ function render() {
 
 	// YouTube
 	if(data.youtube) {
-		document.querySelector(".youtube").innerHTML = `<iframe src="https://www.youtube.com/embed/${data.youtube}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+		document.querySelector(".youtube-video").innerHTML = `<iframe src="https://www.youtube.com/embed/${data.youtube}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 	} else {
-		document.querySelector(".youtube").remove();
+		document.querySelector(".youtube-video").remove();
 	}
 
 	// Downloads
