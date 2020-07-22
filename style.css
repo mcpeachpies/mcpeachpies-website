@@ -93,12 +93,6 @@ nav a.current {
 	height: 100%;
 }
 
-/* Utilities */
-.title {
-	margin-top: 0;
-	color: var(--text);
-}
-
 /* Profile */
 .profile {
 	display: grid;
@@ -197,7 +191,6 @@ nav a.current {
 }
 
 /* Downloads */
-
 .download-button {
 	display: block;
 	width: 100%;
@@ -224,12 +217,47 @@ ul li {
 	margin-top: 15px;
 }
 
+/* Resource packs */
+.resource-previews {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+}
+.resource-previews img {
+	display: block;
+	width: 100%;
+	background: var(--border);
+}
+
+/* Resource pack blocks */
+.blocks {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-gap: 10px;
+}
+.block img {
+	width: 100%;
+	display: block;
+	image-rendering: pixelated;
+}
+.block.door {
+	grid-row: span 2;
+}
+
 /* Util */
 .hidden {
 	display: none;
 }
 .section + .section {
 	margin-top: 40px;
+}
+.title {
+	margin-top: 0;
+	color: var(--text);
+}
+.sub-title {
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 /* Responsiveness */
