@@ -1,6 +1,7 @@
 
 :root {
 
+	--bg-0: #ffffff;
 	--bg-1: #F9F9F9;
 	--bg-2: #F1F1F1;
 
@@ -14,6 +15,7 @@
 
 @media screen and (prefers-color-scheme: dark) {
 	:root {
+		--bg-0: #ffffff;
 		--bg-1: #191919;
 		--bg-2: #222;
 
@@ -242,6 +244,36 @@ ul li {
 }
 .block.door {
 	grid-row: span 2;
+}
+
+/* Tools */
+/* Skin viewer */
+form > div input[type="text"], form .card, .results {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px 20px;
+	font-size: 1em;
+	border: 1px solid var(--border);
+	background: var(--bg-0);
+	border-radius: 4px;
+}
+form .options {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 10px;
+}
+form > * {
+	margin: 20px 0;
+}
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.results img {
+	max-width: 100%;
 }
 
 /* Util */
