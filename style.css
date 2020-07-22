@@ -248,7 +248,7 @@ ul li {
 
 /* Tools */
 /* Skin viewer */
-form > div input[type="text"], form .card, .results {
+form > div input[type="text"], form .card, .results, .input-div input[type="text"] {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 8px 20px;
@@ -257,6 +257,27 @@ form > div input[type="text"], form .card, .results {
 	background: var(--bg-0);
 	border-radius: 4px;
 }
+.nowrap-div {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.nowrap-div > * + * {
+	margin-left: 20px;
+}
+
+.input-div input[type="button"] {
+	padding: 8px 16px;
+	background: var(--bg-1);
+	border: 1px solid var(--border);
+	height: 100%;
+	font-size: 1em;
+	border-radius: 4px;
+}
+.input-div input[readonly] {
+	background: var(--bg-1);
+}
+
 form .options {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
