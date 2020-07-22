@@ -1,5 +1,7 @@
 <?php include("./start.php") ?>
 
+<script>document.querySelector(".home-link").classList.add("current")</script>
+
 <!-- MAIN PAGE -->
 <div class="wrapper">
 	<div class="content extra-wide">

@@ -11,8 +11,8 @@
 		<header>
 			<div class="bg"></div>
 			<nav>
-				<a href="/" class="current">Home</a>
-				<a href="/resource-pack">Resource Pack</a>
+				<a href="/" class="home-link">Home</a>
+				<a href="/resource-pack" class="resource-pack-link">Resource Pack</a>
 				<a href="https://existencesmp.com/" target="_blank">Existence</a>
 			</nav>
 		</header>

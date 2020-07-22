@@ -39,7 +39,9 @@
 			<div class="results">
 				<img id="head" src="/tools/skin-viewer/assets/head.php/?s=200" />
 				<img id="body" src="/tools/skin-viewer/assets/body.php" />
-				<a href="" target="_blank" id="skinImage"><img id="skin" src="/tools/skin-viewer/assets/skin.php" /></a>
+				<a href="" target="_blank" id="skinImage">
+					<img id="skin" src="/tools/skin-viewer/assets/skin.php" />
+				</a>
 				<img id="bodyFull" src="/tools/skin-viewer/assets/bodyFull.php" />
 			</div>
 

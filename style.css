@@ -274,6 +274,7 @@ form > * {
 }
 .results img {
 	max-width: 100%;
+	margin: 2px;
 }
 
 /* Util */
