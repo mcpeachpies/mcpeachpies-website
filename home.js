@@ -29,7 +29,7 @@ async function loadRepos() {
 }
 
 function render() {
-	let wrapper = document.querySelector(".cards");
+	let wrapper = document.querySelector(".cards.datapacks");
 	wrapper.innerHTML = "";
 	for(let datapack of datapacks) {
 		let node = document.importNode(document.querySelector("template.card").content, true).querySelector("*");
@@ -52,7 +52,7 @@ function render() {
 function init() {
 
 	// Skeleton cards
-	let wrapper = document.querySelector(".cards");
+	let wrapper = document.querySelector(".cards.datapacks");
 	for(let i = 0; i < 10; i++) {
 		let node = document.importNode(document.querySelector("template.card").content, true);
 		node.querySelectorAll(".title, .description, .read-more").forEach(el => {
