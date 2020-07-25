@@ -15,8 +15,8 @@
 			<div class="resource-previews">
 				<img alt src="/resource-pack/images/title.png">
 				<img alt src="/resource-pack/images/creative-inventory.png">
-				<img alt src="/resource-pack/images/inventory-bookless.png">
-				<img alt src="/resource-pack/images/inventory.png">
+				<img alt src="/resource-pack/images/survival-inventory.png">
+				<img alt src="/resource-pack/images/hotbar.png">
 			</div>
 
 			<h3 class="sub-title">Doors</h3>
