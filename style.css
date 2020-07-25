@@ -26,12 +26,26 @@
 	}
 }
 
+html, body {
+	min-height: 100vh;
+}
+
 body {
 	margin: 0;
-	margin-bottom: 80px;
 	background: var(--bg-2);
 	color: var(--text-secondary);
 	font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+
+/* Layout stuff */
+body {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-wrapper {
+	flex: 1;
 }
 
 /* Hero */
@@ -56,6 +70,15 @@ nav a {
 	margin: 0 20px;
 	color: inherit;
 	text-decoration: none;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+nav a svg {
+	width: 1.2rem;
+	height: 1.2rem;
+	display: inline-block;
+	margin-right: 10px;
 }
 nav a:hover {
 	text-decoration: underline;
@@ -172,11 +195,11 @@ nav a.current {
 	align-items: center;
 }
 
-.card .read-more {
+ .read-more {
 	color: var(--anchor);
 	text-decoration: none;
 }
-.card .read-more:hover {
+.read-more:hover {
 	text-decoration: underline;
 }
 .card .pack-icon {
@@ -312,6 +335,21 @@ form > * {
 .sub-title {
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	background: var(--bg-0);
+	padding: 20px 0;
+	padding-bottom: calc(20px + env(safe-area-inset-top));
+	text-align: center;
+	border-top: 1px solid var(--border);
+}
+footer p {
+	margin: 0;
 }
 
 /* Responsiveness */
