@@ -72,6 +72,6 @@
 </div>
 
 <script src="../repo.js"></script>
-<script src="home.js"></script>
+<script src="datapacks.js"></script>
 
 <?php include("./end.php") ?>
