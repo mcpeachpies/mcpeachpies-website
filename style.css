@@ -388,10 +388,10 @@ footer p {
 		padding: 10px 0;
 	}
 	nav a.hamburger {
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
 		cursor: pointer;
+	}
+	.showMobileNav a.hamburger {
+		padding-bottom: 10px;
 	}
 	nav:not(.showMobileNav) a:not(.hamburger) {
 		display: none;
