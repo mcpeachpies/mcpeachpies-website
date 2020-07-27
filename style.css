@@ -348,7 +348,7 @@ footer {
 	margin-top: 80px;
 	background: var(--bg-0);
 	padding: 10px 0;
-	padding-bottom: calc(20px + env(safe-area-inset-top));
+	border-bottom: env(safe-area-inset-bottom) solid transparent;
 	text-align: center;
 	border-top: 1px solid var(--border);
 }
@@ -369,15 +369,42 @@ footer p {
 	}
 	.badge {
 		box-sizing: border-box;
-		border-radius: 0;
+		border-radius: 4px;
 		padding: 10px;
 		margin-bottom: 10px;
 		width: 100%;
 	}
+
+	/* Nav */
+	nav {
+		flex-wrap: wrap;
+	}
+	nav a {
+		width: 100%;
+		margin: 0 auto;
+		width: calc(100% - 40px);
+	}
+	nav a:not(.hamburger) {
+		padding: 10px 0;
+	}
+	nav a.hamburger {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		cursor: pointer;
+	}
+	nav:not(.showMobileNav) a:not(.hamburger) {
+		display: none;
+	}
+
+
 }
 
 @media screen and (min-width: 701px) {
 	.card.large-card {
 		padding: 30px;
+	}
+	nav a.hamburger {
+		display: none;
 	}
 }
