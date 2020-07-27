@@ -4,6 +4,7 @@
 	--bg-0: #ffffff;
 	--bg-1: #F9F9F9;
 	--bg-2: #F1F1F1;
+	--bg-dark: var(--bg-2);
 
 	--text: #333;
 	--text-secondary: #4c4c4c;
@@ -15,9 +16,10 @@
 
 @media screen and (prefers-color-scheme: dark) {
 	:root {
-		--bg-0: #ffffff;
+		--bg-0: black;
 		--bg-1: #191919;
 		--bg-2: #222;
+		--bg-dark: var(--bg-0);
 
 		--text: #fcfcfc;
 		--text-secondary: #a7a7a7;
@@ -121,7 +123,7 @@ nav a.current {
 /* Profile */
 .profile {
 	display: grid;
-	grid-template-columns: auto 1fr;
+	grid-template-columns: 100px 1fr;
 	grid-gap: 20px;
 }
 .profile .peach-icon {
@@ -148,7 +150,7 @@ nav a.current {
 }
 .badge svg {
 	width: 100%;
-	height: 100%;
+	height: 24px;
 }
 .badge {
 	margin-right: 10px;
@@ -277,7 +279,8 @@ form > div input[type="text"], form .card, .results, .input-div input[type="text
 	padding: 8px 20px;
 	font-size: 1em;
 	border: 1px solid var(--border);
-	background: var(--bg-0);
+	background: var(--bg-1);
+	color: var(--text);
 	border-radius: 4px;
 }
 .nowrap-div {
@@ -292,13 +295,14 @@ form > div input[type="text"], form .card, .results, .input-div input[type="text
 .input-div input[type="button"] {
 	padding: 8px 16px;
 	background: var(--bg-1);
+	color: var(--text);
 	border: 1px solid var(--border);
 	height: 100%;
 	font-size: 1em;
 	border-radius: 4px;
 }
 .input-div input[readonly] {
-	background: var(--bg-1);
+	background: var(--bg-dark);
 }
 
 form .options {
@@ -343,7 +347,7 @@ footer {
 	height: 100%;
 	margin-top: 80px;
 	background: var(--bg-0);
-	padding: 20px 0;
+	padding: 10px 0;
 	padding-bottom: calc(20px + env(safe-area-inset-top));
 	text-align: center;
 	border-top: 1px solid var(--border);

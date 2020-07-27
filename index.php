@@ -12,7 +12,7 @@
 				<div class="card large-card about">
 					<div class="profile">
 						<div class="profile-aside">
-							<img src="https://yt3.ggpht.com/a/AATXAJzyx-g1k1TLoiDwfrt31PvtaOO1OsbKS8id6Kdk0Q=s100-c-k-c0xffffffff-no-rj-mo" alt="mcpeachpies logo" class="peach-icon">
+							<img src="https://cdn.discordapp.com/avatars/384428466407473153/05bbc0a23058b69ae62989d0c2c81d90.webp?size=256" alt="mcpeachpies logo" class="peach-icon">
 						</div>
 						<div class="profile-core">
 							<h1 class="title">mcpeachpies</h1>
