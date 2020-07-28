@@ -31,7 +31,7 @@
 	</div>
 </div>
 
-<script src="../repo.js"></script>
+<script src="../include/js/repo.js"></script>
 <script src="datapack.js"></script>
 
 <?php include("../include/end.php") ?>

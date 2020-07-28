@@ -11,7 +11,7 @@
 	</div>
 </div>
 
-<script src="../repo.js"></script>
-<script src="../datapacks.js"></script>
+<script src="../include/js/repo.js"></script>
+<script src="../include/js/datapacks.js"></script>
 
 <?php include("../include/end.php") ?>

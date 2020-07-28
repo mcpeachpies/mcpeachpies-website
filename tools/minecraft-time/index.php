@@ -31,6 +31,6 @@
 	</div>
 </div>
 
-<script src="/tools/minecraft-time/time.js"></script>
+<script src="/include/js/time.js"></script>
 
 <?php include("../../include/end.php") ?>
