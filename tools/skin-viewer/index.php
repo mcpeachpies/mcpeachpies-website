@@ -1,4 +1,4 @@
-<?php include("../../start.php") ?>
+<?php include("../../include/start.php") ?>
 
 <!-- MAIN PAGE -->
 <div class="wrapper">
@@ -51,4 +51,4 @@
 
 <script src="/tools/skin-viewer/skinViewer.js"></script>
 
-<?php include("../../end.php") ?>
+<?php include("../../include/end.php") ?>

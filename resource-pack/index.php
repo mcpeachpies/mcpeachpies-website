@@ -1,4 +1,4 @@
-<?php include("../start.php") ?>
+<?php include("../include/start.php") ?>
 
 <script>document.querySelector(".resource-pack-link").classList.add("current")</script>
 
@@ -82,4 +82,4 @@
 	</div>
 </div>
 
-<?php include("../end.php") ?>
+<?php include("../include/end.php") ?>

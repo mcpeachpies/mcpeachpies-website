@@ -1,4 +1,4 @@
-<?php include("../start.php") ?>
+<?php include("../include/start.php") ?>
 
 <!-- MAIN PAGE -->
 <div class="wrapper">
@@ -34,4 +34,4 @@
 <script src="../repo.js"></script>
 <script src="datapack.js"></script>
 
-<?php include("../end.php") ?>
+<?php include("../include/end.php") ?>

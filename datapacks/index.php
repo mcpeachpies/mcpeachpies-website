@@ -1,4 +1,4 @@
-<?php include("../start.php") ?>
+<?php include("../include/start.php") ?>
 
 <script>document.querySelector(".datapacks-link").classList.add("current")</script>
 
@@ -14,4 +14,4 @@
 <script src="../repo.js"></script>
 <script src="../datapacks.js"></script>
 
-<?php include("../end.php") ?>
+<?php include("../include/end.php") ?>

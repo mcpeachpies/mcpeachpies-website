@@ -1,4 +1,4 @@
-<?php include("../start.php") ?>
+<?php include("../include/start.php") ?>
 
 <script>document.querySelector(".tools-link").classList.add("current")</script>
 
@@ -11,4 +11,4 @@
 	</div>
 </div>
 
-<?php include("../end.php") ?>
+<?php include("../include/end.php") ?>
