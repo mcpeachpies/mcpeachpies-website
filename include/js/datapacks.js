@@ -37,7 +37,7 @@ function render() {
 		node.querySelector(".title-text").innerText = datapack.title || "Unknown title";
 		node.querySelector(".description").innerText = datapack.description_short || datapack.description || "";
 
-		node.querySelector(".read-more").href = `/datapack/?${datapack.slug}`;
+		node.querySelector(".read-more").href = `/datapacks?${datapack.slug}`;
 
 		if(datapack.icon) {
 			node.querySelector(".pack-icon").src = `https://raw.githubusercontent.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/master/${datapack.slug}/${datapack.icon}`;

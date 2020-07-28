@@ -1,5 +1,3 @@
-<?php include("../include/start.php") ?>
-
 <!-- MAIN PAGE -->
 <div class="wrapper">
 	<div class="content layout">
@@ -33,5 +31,3 @@
 
 <script src="../include/js/repo.js"></script>
 <script src="../include/js/datapack.js"></script>
-
-<?php include("../include/end.php") ?>
