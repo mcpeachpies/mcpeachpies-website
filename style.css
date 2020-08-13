@@ -161,6 +161,9 @@ nav a.current {
 	align-items: center;
 }
 
+.badge:hover {
+	opacity: 0.8;
+}
 .badge.youtube {
 	background: #D72523;
 	color: white;
@@ -176,7 +179,6 @@ nav a.current {
 	background: #5E79B6;
 	color: white;
 }
-
 
 /* Grid layout for cards */
 .cards {
