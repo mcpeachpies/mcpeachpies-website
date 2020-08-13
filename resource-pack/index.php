@@ -75,7 +75,7 @@
 			<div class="downloads">
 				<h2 class="title">Downloads</h2>
 				<div class="buttons">
-					<a href="#" class="download-button skeleton">Download</a>
+					<a href="https://jipfr.github.io/DownGit/#/home?url=https://github.com/mcpeachpies/mcpeachpies-resource-pack/tree/master/%C2%A79mcpeachpies%20%C2%A7f1.16" class="download-button skeleton" target="_blank">Download</a>
 				</div>
 			</div>
 		</aside>
