@@ -12,11 +12,19 @@
 				<div class="card large-card about">
 					<div class="profile">
 						<div class="profile-aside">
-							<img src="https://existencesmp.com/images/creators/peach.jpg" alt="mcpeachpies logo" class="peach-icon">
+							<img src="https://yt3.ggpht.com/a/AATXAJzyx-g1k1TLoiDwfrt31PvtaOO1OsbKS8id6Kdk0Q=s100-c-k-c0xffffffff-no-rj-mo" alt="mcpeachpies logo" class="peach-icon">
 						</div>
 						<div class="profile-core">
 							<h1 class="title">mcpeachpies</h1>
-							<p class="about-text">Pretty good at most things, pretty bad at most other things. Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="http://youtube.com/Gamemode4Officials">http://youtube.com/Gamemode4Official</a>) and Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>)</p>
+							<p class="about-text">Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>)and Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="http://youtube.com/Gamemode4Officials">http://youtube.com/Gamemode4Official</a>)</p>
+							<p class="about-text">Welcome to my website! Here you'll find downloads and information for all my projects including: 
+							<ul>
+								<li>Minecraft Datapacks I have created for MC1.13 and up<li/>
+								<li>Downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__</li>
+								<li>Useful tools for Minecraft and more</li>
+							</ul>
+							For support or just to chat, feel free to join my <a href="https://discord.gg/fZZt5yw" target="_blank">Discord</a> server
+							</p>
 							<div class="social">
 								<a href="https://www.youtube.com/mcpeachpies" target="_blank" class="badge youtube">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="YouTube_Icon" x="0px" y="0px" viewBox="0 0 1024 721" enable-background="new 0 0 1024 721" xml:space="preserve"><path id="Triangle" fill="#D72523" d="M407,493l276-143L407,206V493z"></path><path id="The_Sharpness" opacity="0.12" fill="#420000" d="M407,206l242,161.6l34-17.6L407,206z"></path><g id="Lozenge">	<g>			<path fill="white" d="M1013,156.3c0,0-10-70.4-40.6-101.4C933.6,14.2,890,14,870.1,11.6C727.1,1.3,512.7,1.3,512.7,1.3    h-0.4c0,0-214.4,0-357.4,10.3C135,14,91.4,14.2,52.6,54.9C22,85.9,12,156.3,12,156.3S1.8,238.9,1.8,321.6v77.5    C1.8,481.8,12,564.4,12,564.4s10,70.4,40.6,101.4c38.9,40.7,89.9,39.4,112.6,43.7c81.7,7.8,347.3,10.3,347.3,10.3    s214.6-0.3,357.6-10.7c20-2.4,63.5-2.6,102.3-43.3c30.6-31,40.6-101.4,40.6-101.4s10.2-82.7,10.2-165.3v-77.5    C1023.2,238.9,1013,156.3,1013,156.3z M407,493V206l276,144L407,493z"></path>	</g></g></svg>

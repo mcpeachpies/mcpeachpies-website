@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Peach site</title>
+		<title>mcpeachpies</title>
 		<link rel="stylesheet" href="/style.css">
+		<link rel="icon" type="image/png" href="/peach.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	</head>
 	<body>
 

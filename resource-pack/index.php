@@ -9,7 +9,7 @@
 
 			<h2 class="title">Resource pack</h2>
 
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, torquent nullam pretium litora magna. Dui posuere quis ante purus dictumst gravida senectus nunc dignissim aliquam egestas, himenaeos curae vivamus fermentum nostra justo eget nulla lacinia facilisi, tempus sem lobortis magnis cursus tortor semper integer dictum nec.</p>
+			<p>Custom resource made in collaboration with <a href="https://twitter.com/TheQbert" target="_blank">Qbert</a> and <a href="https://www.curseforge.com/members/noahlot/projects" target="_blank">Noah</a></p>
 
 			<h3 class="sub-title">Preview images</h3>
 			<div class="resource-previews">
