@@ -6,6 +6,28 @@
 		<link rel="icon" type="image/png" href="/peach.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+		<title>mcpeachpies</title>
+				
+		<meta charset="utf-8">
+		
+		<meta name="description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
+		<meta property="og:description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
+		<meta name="twitter:description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
+		
+		<link rel="icon" href="/peach.png">
+		<meta property="og:image" content="/icon.jpg">
+		<meta name="twitter:image:src" content="https://mcpeachpies.com/icon.jpg">
+		<meta name="twitter:card" content="summary">
+		
+		<meta name="keywords" content="minecraft website">
+		<meta name="theme-color" content="white">
+		
+		<meta property="og:title" content="mcpeachpies">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui, viewport-fit=cover">
+		
+		<meta name="twitter:title" content="mcpeachpies">
+
 	</head>
 	<body>
 

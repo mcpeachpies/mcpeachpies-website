@@ -51,7 +51,6 @@ function render() {
 	let downloads = document.querySelector(".downloads .buttons");
 	downloads.innerHTML = "";
 	for(let download of data.downloads) {
-		console.log(download)
 
 		download.file = download.file.replace(/dg-/g, `https://jipfr.github.io/DownGit/#/home?url=https://github.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/tree/master/${PAGE}/`);
 
