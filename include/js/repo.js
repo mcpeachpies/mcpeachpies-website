@@ -1,4 +1,4 @@
 const GIT_INFO = {
-	USERNAME: "mcpeachpies",
+	USERNAME: "jipfr",
 	REPO: "mcpeachpies-datapacks"
 };
