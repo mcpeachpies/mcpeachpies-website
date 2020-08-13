@@ -20,7 +20,7 @@
 		<meta name="twitter:card" content="summary">
 		
 		<meta name="keywords" content="minecraft website">
-		<meta name="theme-color" content="white">
+		<meta name="theme-color" content="#fffff">
 		
 		<meta property="og:title" content="mcpeachpies">
 		
