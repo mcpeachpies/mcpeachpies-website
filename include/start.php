@@ -10,9 +10,9 @@
 				
 		<meta charset="utf-8">
 		
-		<meta name="description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
-		<meta property="og:description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
-		<meta name="twitter:description" content="Welcome to my website! Here you'll find downloads and information for all my projects including: Minecraft Datapacks I have created for MC1.13 and up, downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__, and useful tools for Minecraft and more">
+		<meta name="description" content="Minecraft Datapacks and more from mcpeachpies">
+		<meta property="og:description" content="Minecraft Datapacks and more from mcpeachpies">
+		<meta name="twitter:description" content="Minecraft Datapacks and more from mcpeachpies">
 		
 		<link rel="icon" href="/peach.png">
 		<meta property="og:image" content="/icon.jpg">
@@ -39,10 +39,10 @@
 				<nav>
 					<a class="hamburger" onclick="event.preventDefault(); this.parentNode.classList.toggle('showMobileNav')"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
 					<a href="/" class="home-link">Home</a>
-					<a href="/resource-pack" class="resource-pack-link">Resource Pack</a>
 					<a href="/datapacks" class="datapacks-link">Datapacks</a>
+					<a href="/resource-pack" class="resource-pack-link">Resource Pack</a>
 					<a href="/tools" class="tools-link">Tools</a>
-					<a href="https://existencesmp.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>Existence</a>
+					<a href="https://existencesmp.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>Existence SMP</a>
 				</nav>
 			</header>
 

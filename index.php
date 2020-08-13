@@ -16,11 +16,11 @@
 						</div>
 						<div class="profile-core">
 							<h1 class="title">mcpeachpies</h1>
-							<p class="about-text">Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>)and Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="http://youtube.com/Gamemode4Officials">http://youtube.com/Gamemode4Official</a>)</p>
+							<p class="about-text">Minecraft Player & Content Creator! Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>) and Assistant Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="https://gm4.co">https://gm4.co</a>)</p>
 							<p class="about-text">Welcome to my website! Here you'll find downloads and information for all my projects including: 
 							<ul>
-								<li>Minecraft Datapacks I have created for MC1.13 and up</li>
-								<li>Downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__</li>
+								<li>Minecraft Datapacks for MC1.13 and up, including new releases for Minecraft 1.16</li>
+								<li>Downloads and previews for my custom resource pack made in collaboration with Qbert and Noah</li>
 								<li>Useful tools for Minecraft and more</li>
 							</ul>
 							For support or just to chat, feel free to join my <a href="https://discord.gg/fZZt5yw" target="_blank" class="read-more">Discord</a> server
