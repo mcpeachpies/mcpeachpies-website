@@ -19,11 +19,11 @@
 							<p class="about-text">Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>)and Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="http://youtube.com/Gamemode4Officials">http://youtube.com/Gamemode4Official</a>)</p>
 							<p class="about-text">Welcome to my website! Here you'll find downloads and information for all my projects including: 
 							<ul>
-								<li>Minecraft Datapacks I have created for MC1.13 and up<li/>
+								<li>Minecraft Datapacks I have created for MC1.13 and up</li>
 								<li>Downloads and previews for my personal resource pack made in collaboration with Qbert and Noahh__</li>
 								<li>Useful tools for Minecraft and more</li>
 							</ul>
-							For support or just to chat, feel free to join my <a href="https://discord.gg/fZZt5yw" target="_blank">Discord</a> server
+							For support or just to chat, feel free to join my <a href="https://discord.gg/fZZt5yw" target="_blank" class="read-more">Discord</a> server
 							</p>
 							<div class="social">
 								<a href="https://www.youtube.com/mcpeachpies" target="_blank" class="badge youtube">
