@@ -52,7 +52,7 @@ function render() {
 	downloads.innerHTML = "";
 	for(let download of data.downloads) {
 
-		download.file = download.file.replace(/dg-/g, `https://jipfr.github.io/DownGit/#/home?url=https://github.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/tree/master/${PAGE}/`);
+		download.file = download.file.replace(/dg-/g, `https://jipfr.github.io/DownGit/?redirect=${location.pathname + location.search}#/home?url=https://github.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/tree/master/${PAGE}/`);
 
 		let a = document.createElement("a");
 		a.classList.add("download-button");
