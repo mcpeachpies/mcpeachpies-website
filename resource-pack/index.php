@@ -76,7 +76,7 @@
 				<h2 class="title">Downloads</h2>
 				<div class="buttons">
 					<a href="/downloads/resource-pack/%C2%A79mcpeachpies%20%C2%A7f1.16.2.zip" class="download-button skeleton">Download (1.16.2)</a>
-					<a href="/downloads/resource-pack/%C2%A79mcpeachpies%20%C2%A7f1.15" class="download-button skeleton">Download (1.15+)</a>
+					<a href="/downloads/resource-pack/%C2%A79mcpeachpies%20%C2%A7f1.15.zip" class="download-button skeleton">Download (1.15+)</a>
 				</div>
 			</div>
 		</aside>
