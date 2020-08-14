@@ -7,7 +7,7 @@
 
 
 			<h1 class="title">Minecraft Skin viewer</h1>
-			<p>Powered by <a href="http://minotar.net/" target="blank">minotar.net</a> </p>
+			<p>Powered by <a href="http://minotar.net/" target="blank" class="read-more">minotar.net</a> </p>
 
 			<form id="form" onsubmit="event.preventDefault()">
 				
