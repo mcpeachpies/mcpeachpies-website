@@ -35,7 +35,7 @@ function render() {
 	for(let feature of data.features || []) {
 		let li = document.createElement("li");
 
-		li.innerText = feature.label;
+		li.innerHTML = feature.label;
 
 		featuresDiv.appendChild(li);
 	}
