@@ -25,6 +25,12 @@ function renderOneClick() {
 		// Set main command
 		card.querySelector(".one-click").innerHTML = entry.command;
 
+		// Add click thing
+		card.querySelector("a").addEventListener("click", () => {
+			card.querySelector(".one-click").focus();
+			document.execCommand("copy");
+		});
+
 		// Add to page
 		wrapper.appendChild(card);
 	}
