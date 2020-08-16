@@ -24,7 +24,7 @@
 
 			<div class="input-div nowrap-div">
 				<input type="text" id="command" value="/time set daytime" readonly />
-				<input type="button" value="Copy command" id="copy" /> <input type="button" value="Refrest current time" onclick="example()" />
+				<input type="button" value="Copy command" id="copy" /> <input type="button" value="Refresh current time" onclick="example()" />
 			</div>
 
 		</div>
