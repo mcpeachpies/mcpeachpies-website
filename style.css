@@ -8,6 +8,7 @@
 
 	--text: #333;
 	--text-secondary: #4c4c4c;
+	--text-tertiary: #727272;
 
 	--anchor: #3a71d6;
 
@@ -23,6 +24,7 @@
 
 		--text: #fcfcfc;
 		--text-secondary: #a7a7a7;
+		--text-tertiary: #c8c8c8;
 
 		--border: rgba(255, 255, 255, 0.2);
 	}
@@ -204,9 +206,26 @@ nav a.current {
 	align-items: center;
 }
 
- .read-more {
+.card .one-click {
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	padding: 3px 10px;
+	height: 100px;
+	resize: none;
+	margin-bottom: 15px;
+	font-family: Arial;
+	font-size: 1rem;
+	word-break: break-all;
+	background: var(--bg-0);
+	color: var(--text-tertiary);
+}
+
+.read-more {
 	color: var(--anchor);
 	text-decoration: none;
+	cursor: pointer;
 }
 .read-more:hover {
 	text-decoration: underline;
