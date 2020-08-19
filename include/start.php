@@ -6,6 +6,8 @@
 		<link rel="icon" type="image/png" href="/peach.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+		<link rel="apple-touch-icon" href="/peach.png">
+
 		<title>mcpeachpies</title>
 				
 		<meta charset="utf-8">
