@@ -1,0 +1,42 @@
+ErrorDocument 404 /404/index.php
+
+RewriteOptions inherit
+DirectoryIndex index.php index.html
+Options -Indexes
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?mcpeachpies\.com
+RewriteRule ^(.*)$ https://mcpeachpies.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^youtube$ "https\:\/\/www\.youtube\.com\/mcpeachpies" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^twitter$ "https\:\/\/twitter\.com\/mcpeachpies" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^websound$ "https\:\/\/websound\.co\.uk\/aff\.php\?aff\=167" [R=301,L]
+
+AddOutputFilterByType DEFLATE image/jpeg
+AddOutputFilterByType DEFLATE image/png
+AddOutputFilterByType DEFLATE image/gif
+AddOutputFilterByType DEFLATE image/bmp
+AddOutputFilterByType DEFLATE image/jpeg,
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^live$ "https\:\/\/youtube\.com\/mcpeachpies\/live" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^one\-clicks$ "https\:\/\/mcpeachpies\.com\/datapacks\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^one\-clicks\/$ "https\:\/\/mcpeachpies\.com\/datapacks\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^discord$ "https\:\/\/discord\.gg\/fZZt5yw" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^minecraftTime\/$ "https\:\/\/mcpeachpies\.com\/tools\/minecraft\-time\/" [R=301,L]
+
