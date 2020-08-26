@@ -8619,3 +8619,5 @@
 [17-Aug-2020 00:30:44 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
 [17-Aug-2020 00:30:48 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
 [17-Aug-2020 00:30:48 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[25-Aug-2020 12:02:47 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[25-Aug-2020 12:02:47 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
