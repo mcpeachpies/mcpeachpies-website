@@ -9,7 +9,7 @@
 
 			<h2 class="title">Resource pack</h2>
 
-			<p>Custom resource made in collaboration with <a href="https://twitter.com/TheQbert" target="_blank" class="read-more">Qbert</a> and <a href="https://twitter.com/kindabland" target="_blank" class="read-more">Noah</a></p>
+			<p>Custom resource made in collaboration with <a href="https://twitter.com/TheQbert" target="_blank" class="read-more">Qbert</a> and <a href="https://twitter.com/kindabland" target="_blank" class="read-more">Noahh__</a></p>
 
 			<h3 class="sub-title">Preview images</h3>
 			<div class="resource-previews">
