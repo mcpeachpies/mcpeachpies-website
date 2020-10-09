@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+
+<style>
+
+body {
+	font-family: Arial;
+	color: white;
+	font-size: 30pt;
+}
+
+#text {
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+
+</style>
+
+<script>
+
+var r = 0; var rLoop = true;
+var g = 0; var gLoop = false;
+var b = 255; var bLoop = false;
+var cycleStage1 = false;
+var cycleStage2 = false;
+var bLower = false;
+
+function rgbChange() {
+	document.body.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
+	document.getElementById("rgb").innerHTML = "rgb(" + r + ", " + g + ", " + b + ")";
+	document.title = "rgb(" + r + ", " + g + ", " + b + ")";
+}
+
+setInterval(function(){
+
+	if (rLoop == true || gLoop == true || bLoop == true) {
+	
+		if (r < 255 && rLoop == true) { 
+			r++; 
+			if (b > 0) { b--; } 
+			} else { 
+				rLoop = false; 
+				} 
+					if (rLoop == false && bLoop == false) { 
+						gLoop = true
+						}
+		if (g < 255 && gLoop == true) {
+			g++; r--; 
+			} else { 
+				gLoop = false;
+				} if (rLoop == false && gLoop == false) { 
+					bLoop = true
+						}
+		if (b < 255 && bLoop == true) { 
+			b++; g--; 
+			} else { 
+				bLoop = false;
+				} if (gLoop == false && bLoop == false) { 
+					rLoop = true;
+					} 
+		
+	}
+	
+	rgbChange()
+
+	
+}, 25);
+
+</script>
+
+</head>
+<body>
+
+<div id="text">
+body {<br />
+background-color:<br />
+<span id="rgb"></span><br />
+}
+
+<script>
+rgbChange() 
+</script>
+
+</body>
+</html>

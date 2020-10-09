@@ -1,0 +1,110 @@
+<!--
+
+2.46 Programming Assessment
+Patrick 
+This program is a virtual Goldfish pet
+The Goldfish stays alive within it's specified weight range. It's health must be > 0 for it to be alive
+You can feed the fish, entertain it, clean the tank, rearrange the tank and heal it.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Goldfish Virtual Pet</title>
+		
+		<!-- Importing CSS styling for HTML webpage. -->
+		<link href="./assets/stylesheet.css" type="text/css" rel="stylesheet" />
+		
+	</head>
+	
+<body>
+	<!-- Beginning of table to hold page content and keeping it aligned -->
+	<table id="container" cellpadding="0"><tbody><tr>
+<td colspan="3">
+	<!-- Title element that will change to show either tell the user to pick a fish or the name and type of fish they have selected -->
+	<div id="title">
+	Choose your fish
+	<!-- END OF title -->
+	</div>
+</td>
+</tr><tr>
+
+<td rowspan="2" width="300px">
+<!-- tankCleanliness element that tells the user the current tank cleanliness percentage -->
+<span id="tankCleanliness"><ul><li><br /></li><br /></ul></span>
+
+<!-- Tank element that holds fish for choosing and the chosen fish along with background and tank objects to be rearrange using the rearrange tank function -->
+<div id="tank">
+<!-- Beginning fish to be displayed on page load for use to select type of fish -->
+<img src="./assets/images/fish/Fantail.png" onmouseover="preview(fantail)" class="fish" />
+<img src="./assets/images/fish/Shubunkin.png" onmouseover="preview(shubunkin)" class="fish" />
+<img src="./assets/images/fish/Comet.png" onmouseover="preview(comet)" class="fish" />
+<img src="./assets/images/fish/Blackmoor.png" onmouseover="preview(blackmoor)" class="fish" /> <br />
+
+<!-- END OF tank -->
+</div>
+
+</td>
+
+<td>
+<!-- fishType element to display the selected fish type -->
+<span id="fishType"></span><br />
+
+<span id="fishStats">
+<!-- END OF fishStats -->
+</span>
+</td>
+
+<!-- Control element to display interface for user and fish, loads with input for fish name and confirm selected, than changes to fish interaction functions such as feed, entertain etc. -->
+<td id="control">
+
+<!-- Form containing buttons and inputs. -->
+<form id="form">
+
+Pick a type of fish and give it a name!<br />
+	<input type="text" name="input" /><br /><br />
+	
+Click me once you've picked a fish!<br />
+	<input type="button" class="button" value="Choose fish" onclick="pickFish(this.form)" />
+</form>
+
+</td>
+
+</tr>
+
+<tr>
+
+<!-- fishImage element to display selected fish  -->
+<td id="fishImage" colspan="2">
+
+</td>
+
+</tr><tr>
+
+<td colspan="3">
+
+<!-- message element to output messages to the user  -->
+<div id="message">- Hover over the fish you want then select <b>Choose fish</b></div>
+
+<br />
+
+<p>Virtual Goldfish Pet - HTML/CSS/Javascript - Patrick 2015</p>
+
+</td>
+</tr></tbody></table>
+
+	<!-- END OF container -->
+	</div>
+
+<!-- END OF BODY -->
+</body>
+
+<!-- Importing of JavaScript files, located at end of page to allow for loading of key HTML elements  -->
+<script type="text/javascript" src="./assets/core.js"></script>
+<script type="text/javascript" src="./assets/pickfish.js"></script>
+<script type="text/javascript" src="./assets/main.js"></script>
+
+</html>
+

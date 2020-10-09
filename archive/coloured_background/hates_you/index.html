@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+
+<style>
+
+body {
+	font-family: Arial;
+	color: white;
+	font-size: 30pt;
+}
+
+#text {
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+</style>
+
+<script>
+
+var r;
+var g;
+var b;
+
+function rgbChange() {
+	document.body.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
+	document.getElementById("rgb").innerHTML = "rgb(" + r + ", " + g + ", " + b + ")";
+	document.title = "rgb(" + r + ", " + g + ", " + b + ")";
+}
+
+setInterval(function(){
+
+	r = Math.floor((Math.random() * 255) + 0);
+	g = Math.floor((Math.random() * 255) + 0);
+	b= Math.floor((Math.random() * 255) + 0);
+	
+	rgbChange()
+
+	
+}, 25);
+
+</script>
+
+</head>
+<body>
+
+<div id="text">
+body {<br />
+background-color:<br />
+<span id="rgb"></span><br />
+}
+
+<script>
+rgbChange() 
+</script>
+
+</body>
+</html>

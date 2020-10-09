@@ -1,0 +1,101 @@
+/* Stylesheet for HTML page to format element and display tank with interaction buttons */
+
+html {
+	/* Setting background image to be shown on page */
+	background-image: url('./images/background.jpg');
+	height: 100%;
+}
+
+/* Styling of backgrounds to ensure blurred and default overlay correctly and fix to the screen */
+html, #container, table {
+	background-size: 100% auto;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+body {
+	/* Font set for whole page */
+	font-family: Trebuchet MS;
+}
+
+#container {
+	/* Blurred background image set */
+	background-image: url('./images/background_container.jpg');
+	
+	/* Width and centering of main container element */
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Formatting of the fish tank displayed on the page */
+#tank {
+	/* Default background colour for tank, blue level decreases as the tank get less clean */
+	background-color: rgb(63, 176, 200);
+	
+	/* Ensures no background image is set on loading of page, images are added once fish is chosen, including main background and tank objects */
+	background-image: none;
+		
+	/* Ensures background do not repeat on the tank so there is on one of each object */
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	/* Default position of each background, to be changed when user rearranges tank */
+	background-position: bottom left, bottom left, bottom left, bottom left, bottom left, bottom left; 
+	
+	/* Sizes and position of tank styling */
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+/* Setting of fish size for fish on page load in tank to be chosen */
+.fish {
+	width: 100px;
+	height: 50;
+	
+	/* Transition to change the size of the fish over a period of 0.5 seconds */
+	transition: width 0.5s, height 0.5s;
+	
+	/* Changing of fish size on mouse hover when user is choosing fish */
+}	.fish:hover {
+		width: 150px;
+	}
+	
+/* Font size for the title of the page */
+#title {
+	font-size: 3.125em;
+}
+
+/* Formatting for the buttons, styling to remove default button styles and replaced with custom styles */
+.button {
+	background: #FFFFFF;
+	border: 1px solid #000000;
+    padding: 2;
+    border-radius: 3px;
+    text-decoration: none;
+	font-family: Trebuchet MS;
+	font-size: 1em;
+	
+	/* Transitions of buttons to change on mouse hover */
+	transition: font-size 0.5s, background 0.5s;
+    
+    /* Change to background colour when mouse is hovered over buttons */
+}	.button:hover {
+		background-color: orange;
+	}
+
+/* Size of control element containing interactive buttons */
+#control {
+	width: 250px;	
+}
+
+/* Size set for message element to display messages to user also overflow to add scroll to element when messages overflow element height */
+#message {
+	height: 250px;
+	overflow-y: scroll;
+}
+
+/* Centering of fish element also setting size */
+#fishImage {
+	text-align: center;
+	height: 150px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Minecraft Skin viewer</title>
+	
+	<link href="skinViewer.css" type="text/css" rel="Stylesheet" />
+	<link href="../assets/stylesheet.css" type="text/css" rel="Stylesheet" />
+	<link href="../assets/favicon.ico" type="image/icon" rel="shortcut icon" />
+
+
+</head>
+
+<body onload="getSkin(form)">
+
+<div id="banner">
+<div id="bannerContainer">
+	<a href="http://peach.spiderrobotman.com/"><img src="https://yt3.ggpht.com/-p1I0mL7L2zE/AAAAAAAAAAI/AAAAAAAAAAA/geZSLJPn5dQ/s100-c-k-no-mo-rj-c0xffffff/photo.jpg" id="YTIcon" /></a>
+	
+	<div id="mcpeachpies">
+		&nbsp;
+		mcpeachpies
+	</div>
+	
+	<div id="bannerSocial">
+		<a href="https://www.youtube.com/c/mcpeachpies" target="_blank"><img src="../assets/youtube_icon.png" /></a>
+		<a href="https://twitter.com/mcpeachpies" target="_blank"><img src="../assets/twitter_icon.png" /></a>
+		<a href="https://mixer.com/mcpeachpies" target="_blank"><img src="../assets/mixer_icon.png" /></a>
+		<a href="https://discord.gg/012Ye6zZBMxmoVXIE" target="_blank"><img src="../assets/discord_icon.png" /></a>
+		
+	
+	<!-- End of bannerSocial -->
+	</div>
+
+</div>
+<!-- End of Banner -->
+</div>
+
+<div id="container">
+
+<h1>Minecraft Skin viewer</h1>
+<p>Powered by <a href="http://minotar.net/" target="blank">minotar.net</a> </p>
+
+	<table><tbody>
+	
+	<tr><tr>
+	<form id="form" onsubmit="return getSkin(this)">
+	Username <br>
+	<input type="text" name="u" >
+	</td>
+	
+	<td>
+	Arm width<br>
+	<input type="radio" name="a" checked>4px (Steve)<br>
+	<input type="radio" name="a" value="3" id="a_3">3px (Alex)<br>
+	</td>
+	
+	<td>
+	Skin Hat/Jacket<br>
+	<input type="radio" name="t" checked>On<br>
+	<input type="radio" name="t" value="no" id="t_no">Off<br>
+	</td>
+	</tr>
+	
+	<tr><td>
+	<input type="button" value="Get skin" onclick="return getSkin(this.form)">
+	
+	</form>
+	
+	</tbody></table>
+	
+<div id="test">Enter username</div>
+	
+	<img id="head" src="./assets/head.php/?s=200" />
+	<img id="body" src="./assets/body.php" />
+	<a href="" target="_blank" id="skinImage"><img id="skin" src="./assets/skin.php" /></a>
+	<br />
+	<img id="bodyFull" src="./assets/bodyFull.php" />
+	
+</div>
+
+	
+<!-- End of container -->
+</div>
+
+</body>
+
+	<script src="skinViewer.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<!-- <script src="jq_script.js" type="text/javascript"></script> -->
+
+</html>

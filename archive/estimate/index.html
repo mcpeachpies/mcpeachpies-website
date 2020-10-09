@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Estimate data traffic time</title>
+	
+	<style type="text/css">
+	
+		body {
+			font-family: Arial;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+
+<form>
+	
+	File size
+	<input name="size" type="text"/>GB<br />
+	Percent already completed
+	<input name="percent" type="text"/>%<br />
+	Current speed
+	<input name="speed" type="text"/>MB/s<br />
+	
+	<input type="button" value="Submit" onclick="estimate(this.form)" />
+</form>
+
+	<div id="output"></div><br />
+
+</body>
+
+	<script src="estimate.js" type="text/javascript"></script>
+
+</html>

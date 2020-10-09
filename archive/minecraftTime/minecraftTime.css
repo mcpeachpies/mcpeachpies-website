@@ -1,0 +1,17 @@
+/* Minecraft Time Stylesheet */
+#clock {
+	margin-top: 50px;
+	height: 300px;
+	
+	transition: height 0.5s;
+}
+
+#clock:hover {
+	height: 600px;
+}
+
+
+
+
+
+
