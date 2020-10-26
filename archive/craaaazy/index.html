@@ -44,6 +44,11 @@
 <body>
 
 <script>
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('audio').play();
+    document.removeEventListener('click', musicPlay);
+}
 
 var r = 0; var rLoop = true;
 var g = 0; var gLoop = false;
@@ -104,7 +109,7 @@ setInterval(function(){
 
 	<div id="container">
 
-<audio controls id="audio" autoplay loop>
+<audio controls id="audio" autoplay loop autoplay="true">
   <source src="crazybound.mp3" type="audio/mpeg">
 </audio>
 
