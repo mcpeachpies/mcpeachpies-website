@@ -29,14 +29,21 @@ RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
 RewriteRule ^live$ "https\:\/\/youtube\.com\/mcpeachpies\/live" [R=301,L]
 RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^one\-clicks$ "https\:\/\/mcpeachpies\.com\/datapacks\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^one\-clicks\/$ "https\:\/\/mcpeachpies\.com\/datapacks\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
 RewriteRule ^discord$ "https\:\/\/discord\.gg\/fZZt5yw" [R=301,L]
 RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
 RewriteRule ^minecraftTime\/$ "https\:\/\/mcpeachpies\.com\/tools\/minecraft\-time\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^one\-clicks$ "http\:\/\/mcpeachpies\.com\/datapacks\#one\-clicks" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^one\-clicks\/$ "http\:\/\/mcpeachpies\.com\/datapacks\#one\-clicks" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^skin_viewer$ "https\:\/\/mcpeachpies\.com\/tools\/skin\-viewer\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^skin_viewer\/$ "https\:\/\/mcpeachpies\.com\/tools\/skin\-viewer\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteRule ^craaaazy\/?(.*)$ "https\:\/\/mcpeachpies\.com\/archive\/craaaazy$1" [R=301,L]
 
