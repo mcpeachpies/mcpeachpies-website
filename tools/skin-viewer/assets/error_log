@@ -8827,3 +8827,85 @@
 [23-Oct-2020 15:07:00 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
 [27-Oct-2020 19:20:59 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
 [27-Oct-2020 19:20:59 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[30-Oct-2020 18:12:00 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[30-Oct-2020 18:12:00 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[30-Oct-2020 18:12:17 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[30-Oct-2020 18:12:17 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[31-Oct-2020 00:51:38 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[31-Oct-2020 00:51:38 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[31-Oct-2020 00:51:45 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[31-Oct-2020 00:51:45 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:26 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:26 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:29 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 6
+[02-Nov-2020 04:59:29 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/head.php on line 6
+[02-Nov-2020 04:59:29 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/skin.php on line 6
+[02-Nov-2020 04:59:29 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:29 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:29 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/bodyFull.php on line 6
+[02-Nov-2020 04:59:30 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/head.php on line 6
+[02-Nov-2020 04:59:30 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/skin.php on line 6
+[02-Nov-2020 04:59:30 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/bodyFull.php on line 6
+[02-Nov-2020 04:59:30 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 6
+[02-Nov-2020 04:59:30 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:30 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:31 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/bodyFull.php on line 6
+[02-Nov-2020 04:59:31 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 6
+[02-Nov-2020 04:59:31 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/skin.php on line 6
+[02-Nov-2020 04:59:31 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/head.php on line 6
+[02-Nov-2020 04:59:31 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 04:59:31 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 10:30:33 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 10:30:33 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 15:54:49 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Nov-2020 15:54:49 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:15:08 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:15:08 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:15:30 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:15:30 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:16:10 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:16:10 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:16:22 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[07-Nov-2020 07:16:22 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[25-Nov-2020 16:46:31 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[25-Nov-2020 16:46:31 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[28-Nov-2020 22:41:39 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[28-Nov-2020 22:41:39 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[28-Nov-2020 22:41:51 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/head.php on line 6
+[28-Nov-2020 22:41:52 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 6
+[28-Nov-2020 22:41:52 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/skin.php on line 6
+[28-Nov-2020 22:41:52 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[28-Nov-2020 22:41:52 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[28-Nov-2020 22:41:52 UTC] PHP Warning:  file_get_contents(https://minotar.net/skin/.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/mcpeachp/public_html/tools/skin-viewer/assets/bodyFull.php on line 6
+[29-Nov-2020 19:22:25 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[29-Nov-2020 19:22:25 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Dec-2020 23:04:47 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[02-Dec-2020 23:04:47 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[08-Dec-2020 21:16:06 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[08-Dec-2020 21:16:06 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:43:57 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:43:57 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:00 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:00 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:11 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:11 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:14 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:14 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:19 UTC] PHP Notice:  Undefined variable: blankSkin in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
+[09-Dec-2020 23:44:19 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/mcpeachp/public_html/tools/skin-viewer/assets/body.php on line 133
