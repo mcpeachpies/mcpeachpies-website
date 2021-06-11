@@ -5,7 +5,7 @@ async function loadRepos() {
 	// Get files & folders in repo
 
 	// Folders becomes an array of folder names
-	const folders = (await (await fetch(FILES_URL)).json()).filter(obj => obj.type === "dir").map(obj => obj.name);
+	const folders = (await (await fetch(FILES_URL)).json()).filter(obj => obj.type === "dir").map(obj => obj.name).filter(folderName => !folderName.startsWith("."));
 
 	// Get website.json from each folder
 	const webJsonFiles = folders.map(folderName => {
