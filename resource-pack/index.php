@@ -9,14 +9,14 @@
 
 			<h2 class="title">Resource pack</h2>
 
-			<p>Custom resource made in collaboration with <a href="https://twitter.com/TheQbert" target="_blank" class="read-more">Qbert</a> and <a href="https://twitter.com/kindabland" target="_blank" class="read-more">Noahh__</a></p>
+			<p>Custom resource made in collaboration with <a href="https://twitter.com/TheQbert" target="_blank" class="read-more">Qbert</a> and <a href="https://twitter.com/kindabland" target="_blank" class="read-more">Noelle</a></p>
 
 			<h3 class="sub-title">Preview images</h3>
 			<div class="resource-previews">
-				<img alt src="/resource-pack/images/title.png">
-				<img alt src="/resource-pack/images/creative-inventory.png">
-				<img alt src="/resource-pack/images/survival-inventory.png">
-				<img alt src="/resource-pack/images/hotbar.png">
+				<img alt src="/resource-pack/images/title.jpg">
+				<img alt src="/resource-pack/images/creative-inventory.jpg">
+				<img alt src="/resource-pack/images/survival-inventory.jpg">
+				<img alt src="/resource-pack/images/hotbar.jpg">
 			</div>
 
 			<h3 class="sub-title">Doors</h3>
@@ -52,12 +52,6 @@
 					<img data-src="/assets/minecraft/textures/block/red_nether_bricks/0.png">
 				</div>
 				<div class="block">
-					<img data-src="/assets/minecraft/textures/block/diamond_ore.png">
-				</div>
-				<div class="block">
-					<img data-src="/assets/minecraft/textures/block/gold_ore.png">
-				</div>
-				<div class="block">
 					<img data-src="/assets/minecraft/textures/block/purpur_block.png">
 				</div>
 				<div class="block">
@@ -75,8 +69,9 @@
 			<div class="downloads">
 				<h2 class="title">Downloads</h2>
 				<div class="buttons">
-					<a href="/downloads/resource-pack/%C2%A79mcpeachpies%20%C2%A7f1.16.2.zip" class="download-button skeleton">Download (1.16.2)</a>
-					<a href="/downloads/resource-pack/%C2%A79mcpeachpies%20%C2%A7f1.15%2B.zip" class="download-button skeleton">Download (1.15+)</a>
+					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.17.zip" class="download-button skeleton">Download (1.17)</a>
+					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.16.2.zip" class="download-button skeleton">Download (1.16.2)</a>
+					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.15+.zip" class="download-button skeleton">Download (1.15+)</a>
 				</div>
 			</div>
 		</aside>
