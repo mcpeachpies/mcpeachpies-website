@@ -40,14 +40,14 @@ function convert(fullTime) {
 	var Cminutes = fullTime.slice(2, 4);
 
 	if (Chours < 06) {
-		var daytime = Math.ceil(((Chours * 1000) + 18000) + (Cminutes * 16.7));
-		innerHTML("output", "(( " + Chours + "* 1000 ) + 18000 ) + ( " + Cminutes + "* 16.7 ) = " + daytime);
-		document.getElementById("command").value = "/time set " + daytime;
+		var daytime = Math.ceil(((Chours * 1000) + 18000) + (Cminutes * (1000 / 60)));
+		innerHTML("output", "<i>((" + Chours + "*1000)+18000)+(" + Cminutes + "*16.<span style=\"text-decoration: overline;\">6</span>)=" + daytime +"</i>");
+		document.getElementById("command").value = "/time set " + daytime + "t";
 	}
 	else {
-		var daytime = Math.ceil(((Chours * 1000) - 6000) + (Cminutes * 16.7));
-		innerHTML("output", "(( " + Chours + "* 1000 ) - 6000 ) + ( " + Cminutes + "* 16.7 ) = " + daytime);
-		document.getElementById("command").value = "/time set " + daytime;
+		var daytime = Math.ceil(((Chours * 1000) - 6000) + (Cminutes * (1000 / 60)));
+		innerHTML("output", "<i>((" + Chours + "*1000)-6000)+(" + Cminutes + "*16.<span style=\"text-decoration: overline;\">6</span>)=" + daytime +"</i>");
+		document.getElementById("command").value = "/time set " + daytime + "t";
 	}
 
 
