@@ -5,16 +5,16 @@ DirectoryIndex index.php index.html
 Options -Indexes
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^(www\.)?mcpeachpies\.com
+RewriteCond %{HTTP_HOST} ^(www\.)?mcpeachpies\.existencesmp\.com
 RewriteRule ^(.*)$ https://mcpeachpies.com/$1 [R,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^youtube$ "https\:\/\/www\.youtube\.com\/mcpeachpies" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^twitter$ "https\:\/\/twitter\.com\/mcpeachpies" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^websound$ "https\:\/\/websound\.co\.uk\/aff\.php\?aff\=167" [R=301,L]
 
 AddOutputFilterByType DEFLATE image/jpeg
@@ -24,26 +24,26 @@ AddOutputFilterByType DEFLATE image/bmp
 AddOutputFilterByType DEFLATE image/jpeg,
 AddOutputFilterByType DEFLATE image/svg+xml
 AddOutputFilterByType DEFLATE image/x-icon
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^live$ "https\:\/\/youtube\.com\/mcpeachpies\/live" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^discord$ "https\:\/\/discord\.gg\/fZZt5yw" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^minecraftTime\/$ "https\:\/\/mcpeachpies\.com\/tools\/minecraft\-time\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
+RewriteRule ^minecraftTime\/$ "https\:\/\/mcpeachpies\.existencesmp\.com\/tools\/minecraft\-time\/" [R=301,L]
 RewriteCond %{HTTP_HOST} ^.*$
-RewriteRule ^one\-clicks$ "http\:\/\/mcpeachpies\.com\/datapacks\#one\-clicks" [R=301,L]
+RewriteRule ^one\-clicks$ "http\:\/\/mcpeachpies\.existencesmp\.com\/datapacks\#one\-clicks" [R=301,L]
 RewriteCond %{HTTP_HOST} ^.*$
-RewriteRule ^one\-clicks\/$ "http\:\/\/mcpeachpies\.com\/datapacks\#one\-clicks" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^skin_viewer$ "https\:\/\/mcpeachpies\.com\/tools\/skin\-viewer\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^skin_viewer\/$ "https\:\/\/mcpeachpies\.com\/tools\/skin\-viewer\/" [R=301,L]
-RewriteCond %{HTTP_HOST} ^mcpeachpies\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.com$
-RewriteRule ^craaaazy\/?(.*)$ "https\:\/\/mcpeachpies\.com\/archive\/craaaazy$1" [R=301,L]
+RewriteRule ^one\-clicks\/$ "http\:\/\/mcpeachpies\.existencesmp\.com\/datapacks\#one\-clicks" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
+RewriteRule ^skin_viewer$ "https\:\/\/mcpeachpies\.existencesmp\.com\/tools\/skin\-viewer\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
+RewriteRule ^skin_viewer\/$ "https\:\/\/mcpeachpies\.existencesmp\.com\/tools\/skin\-viewer\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
+RewriteRule ^craaaazy\/?(.*)$ "https\:\/\/mcpeachpies\.existencesmp\.com\/archive\/craaaazy$1" [R=301,L]
 
