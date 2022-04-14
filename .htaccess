@@ -6,7 +6,7 @@ Options -Indexes
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^(www\.)?mcpeachpies\.existencesmp\.com
-RewriteRule ^(.*)$ https://mcpeachpies.com/$1 [R,L]
+RewriteRule ^(.*)$ https://mcpeachpies.existencesmp.com/$1 [R,L]
 RewriteCond %{HTTP_HOST} ^mcpeachpies\.existencesmp\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.mcpeachpies\.existencesmp\.com$
 RewriteRule ^youtube$ "https\:\/\/www\.youtube\.com\/mcpeachpies" [R=301,L]
