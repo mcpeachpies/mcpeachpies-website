@@ -12,7 +12,7 @@
 		</div>
 		<div class="card">
 			<div class="card-top">
-				<h3 class="title"><img class="pack-icon" src="https://raw.githubusercontent.com/mcpeachpies/mcpeachpies-resource-pack/master/%C2%A79mcpeachpies%20%C2%A7f1.16.2/assets/minecraft/textures/environment/sun.png" onerror="this.remove();"><span class="title-text">Minecraft time calculator</span></h3>
+				<h3 class="title"><img class="pack-icon" src="https://github.com/mcpeachpies/mcpeachpies-resource-pack/blob/master/mcpeachpies_resource_pack_1.19/assets/minecraft/textures/environment/sun.png?raw=true" onerror="this.remove();"><span class="title-text">Minecraft time calculator</span></h3>
 				<p class="description">Convert 24-hour time to Minecraft time</p>
 			</div>
 			<div class="card-bottom">

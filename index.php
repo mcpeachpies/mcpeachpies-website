@@ -19,7 +19,7 @@
 							<p class="about-text">Minecraft Player & Content Creator! Admin of the Existence SMP Community (<a href="https://existencesmp.com" target="_blank" class="read-more">https://existencesmp.com</a>) and Assistant Community Manager for Gamemode 4 (<a class="read-more" target="_blank" href="https://gm4.co">https://gm4.co</a>)</p>
 							<p class="about-text">Welcome to my website! Here you'll find downloads and information for all my projects including: 
 							<ul>
-								<li>Minecraft Datapacks for <b>Minecraft 1.18</b> and below</li>
+								<li>Minecraft Datapacks for <b>Minecraft 1.19</b> and more!</li>
 								<li>Downloads and previews for my custom resource pack made in collaboration with Qbert and Noelle</li>
 								<li>Useful tools for Minecraft and more</li>
 							</ul>
