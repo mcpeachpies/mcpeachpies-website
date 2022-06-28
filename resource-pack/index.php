@@ -46,10 +46,10 @@
 					<img data-src="/assets/minecraft/textures/block/observer_front.png">
 				</div>
 				<div class="block">
-					<img data-src="/assets/minecraft/textures/block/nether_bricks/0.png">
+					<img data-src="/assets/minecraft/textures/block/nether_bricks/5.png">
 				</div>
 				<div class="block">
-					<img data-src="/assets/minecraft/textures/block/red_nether_bricks/0.png">
+					<img data-src="/assets/minecraft/textures/block/red_nether_bricks/5.png">
 				</div>
 				<div class="block">
 					<img data-src="/assets/minecraft/textures/block/purpur_block.png">
@@ -69,6 +69,7 @@
 			<div class="downloads">
 				<h2 class="title">Downloads</h2>
 				<div class="buttons">
+					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.19.zip" class="download-button skeleton">Download (1.19)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.17.zip" class="download-button skeleton">Download (1.17)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.16.2.zip" class="download-button skeleton">Download (1.16.2)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.15+.zip" class="download-button skeleton">Download (1.15+)</a>
