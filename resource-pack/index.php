@@ -69,6 +69,7 @@
 			<div class="downloads">
 				<h2 class="title">Downloads</h2>
 				<div class="buttons">
+					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.20.2.zip" class="download-button skeleton">Download (1.20.2+)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.20.zip" class="download-button skeleton">Download (1.19.3+)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.19.zip" class="download-button skeleton">Download (1.19)</a>
 					<a href="https://github.com/mcpeachpies/mcpeachpies-resource-pack/releases/latest/download/mcpeachpies_resource_pack_1.17.zip" class="download-button skeleton">Download (1.17)</a>
