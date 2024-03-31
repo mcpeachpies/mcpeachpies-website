@@ -30,6 +30,8 @@
 		
 		<meta name="twitter:title" content="mcpeachpies">
 
+		<link rel="me" href="https://farlands.cafe/@mcpeachpies"></link>
+
 	</head>
 	<body>
 
