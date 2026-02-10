@@ -1,15 +1,17 @@
-const FILES_URL = `https://api.github.com/repos/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/contents`;
+// const FILES_URL = `https://api.github.com/repos/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/contents`;
 let datapacks;
 
 async function loadRepos() {
 	// Get files & folders in repo
 
 	// Folders becomes an array of folder names
-	const folders = (await (await fetch(FILES_URL)).json()).filter(obj => obj.type === "dir").map(obj => obj.name).filter(folderName => !folderName.startsWith("."));
-
+	// const folders = (await (await fetch(FILES_URL)).json()).filter(obj => obj.type === "dir").map(obj => obj.name).filter(folderName => !folderName.startsWith("."));
+	const folders = (await (await fetch(`https://api.github.com/orgs/${GIT_INFO.ORG}/repos`)).json()).map(t => t.name)
+	console.log(folders)
 	// Get website.json from each folder
+	// https://github.com/Team-mcpeachpies/afk-detector/blob/main/website.json
 	const webJsonFiles = folders.map(folderName => {
-		return `https://raw.githubusercontent.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/master/${folderName}/website.json`
+		return `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${folderName}/master/website.json`
 	});
 
 	let promiseArray = await Promise.all(webJsonFiles.map(url => fetch(url)));
@@ -18,20 +20,20 @@ async function loadRepos() {
 
 	// Store data and render results
 	datapacks = promiseArray;
-	for(let i = 0; i < promiseArray.length; i++) {
+	for (let i = 0; i < promiseArray.length; i++) {
 		promiseArray[i] = {
 			...promiseArray[i],
 			slug: folders[i]
 		}
 	}
 	render();
-	
+
 }
 
 function render() {
 	let wrapper = document.querySelector(".cards.datapacks");
 	wrapper.innerHTML = "";
-	for(let datapack of datapacks) {
+	for (let datapack of datapacks) {
 		let node = document.importNode(document.querySelector("template.card").content, true).querySelector("*");
 
 		node.querySelector(".title-text").innerText = datapack.title || "Unknown title";
@@ -39,8 +41,10 @@ function render() {
 
 		node.querySelector(".read-more").href = `/datapacks?${datapack.slug}`;
 
-		if(datapack.icon) {
-			node.querySelector(".pack-icon").src = `https://raw.githubusercontent.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/master/${datapack.slug}/${datapack.icon}`;
+		console.log(datapack.icon)
+		if (datapack.icon) {
+			// https://github.com/Team-mcpeachpies/afk-detector/tree/main/mcpeachpies_afk_detector
+			node.querySelector(".pack-icon").src = `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${datapack.slug}/master/${datapack.icon}`;
 		} else {
 			node.querySelector(".pack-icon").remove();
 		}
@@ -53,7 +57,7 @@ function init() {
 
 	// Skeleton cards
 	let wrapper = document.querySelector(".cards.datapacks");
-	for(let i = 0; i < 10; i++) {
+	for (let i = 0; i < 10; i++) {
 		let node = document.importNode(document.querySelector("template.card").content, true);
 		node.querySelectorAll(".title, .description, .read-more").forEach(el => {
 			el.classList.add("skeleton");
