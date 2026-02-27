@@ -1,6 +1,6 @@
 const PAGE = location.search.slice(1);
 
-const WEB_INFO = `https://raw.githubusercontent.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/master/${PAGE}/website.json`
+const WEB_INFO = `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${folderName}/master/website.json`
 let data = {};
 
 async function getData() {
@@ -52,7 +52,7 @@ function render() {
 	downloads.innerHTML = "";
 	for(let download of data.downloads) {
 
-		download.file = download.file.replace(/dg-/g, `https://jipfr.github.io/DownGit/?redirect=${location.pathname + location.search}#/home?url=https://github.com/${GIT_INFO.USERNAME}/${GIT_INFO.REPO}/tree/master/${PAGE}/`);
+		download.file = download.file.replace(/dg-/g, `https://jipfr.github.io/DownGit/?redirect=${location.pathname + location.search}#/home?url=https://github.com/${GIT_INFO.ORG}/${folderName}/tree/master/${PAGE}/`);
 
 		let a = document.createElement("a");
 		a.classList.add("download-button");
