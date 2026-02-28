@@ -4,28 +4,20 @@ let datapacks;
 async function loadRepos() {
 	// Get files & folders in repo
 
-	// Folders becomes an array of folder names
-	// const folders = (await (await fetch(FILES_URL)).json()).filter(obj => obj.type === "dir").map(obj => obj.name).filter(folderName => !folderName.startsWith("."));
-	const folders = (await (await fetch(`https://api.github.com/orgs/${GIT_INFO.ORG}/repos`)).json()).map(t => t.name)
-	console.log(folders)
-	// Get website.json from each folder
-	// https://github.com/Team-mcpeachpies/afk-detector/blob/main/website.json
-	const webJsonFiles = folders.map(folderName => {
-		return `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${folderName}/master/website.json`
-	});
+	const res = await fetch('https://api.modrinth.com/v2/search?facets=%5B%5B"author:mcpeachpies"%5D%5D&limit=100')
+	const data = await res.json()
 
-	let promiseArray = await Promise.all(webJsonFiles.map(url => fetch(url)));
-	promiseArray = await Promise.all(promiseArray.map(res => res.ok ? res.json() : { error: true }));
-	promiseArray = promiseArray.filter(obj => obj.list_on_site);
+	console.log(data.hits)
 
-	// Store data and render results
-	datapacks = promiseArray;
-	for (let i = 0; i < promiseArray.length; i++) {
-		promiseArray[i] = {
-			...promiseArray[i],
-			slug: folders[i]
+	datapacks = data.hits.map(hit => {
+		return {
+			title: hit.title,
+			description: hit.description,
+			link: `https://modrinth.com/datapack/${hit.slug}`,
+			icon: hit.icon_url
 		}
-	}
+	})
+
 	render();
 
 }
@@ -37,14 +29,14 @@ function render() {
 		let node = document.importNode(document.querySelector("template.card").content, true).querySelector("*");
 
 		node.querySelector(".title-text").innerText = datapack.title || "Unknown title";
-		node.querySelector(".description").innerText = datapack.description_short || datapack.description || "";
+		node.querySelector(".description").innerText = datapack.description || "";
 
-		node.querySelector(".read-more").href = `/datapacks?${datapack.slug}`;
+		node.querySelector(".read-more").href = datapack.link;
+		node.querySelector(".read-more").setAttribute('target', '_blank')
 
-		console.log(datapack.icon)
 		if (datapack.icon) {
 			// https://github.com/Team-mcpeachpies/afk-detector/tree/main/mcpeachpies_afk_detector
-			node.querySelector(".pack-icon").src = `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${datapack.slug}/master/${datapack.icon}`;
+			node.querySelector(".pack-icon").src = datapack.icon
 		} else {
 			node.querySelector(".pack-icon").remove();
 		}

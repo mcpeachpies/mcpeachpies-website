@@ -59,7 +59,7 @@
 							<p class="description">atea ad.rabitur habitant sapien dis montes senectus mollis ut lectus</p>
 						</div>
 						<div class="card-bottom">
-							<a class="read-more" href="#">Learn more</a>
+							<a class="read-more" href="#">View on Modrinth</a>
 						</div>
 					</div>
 				</template>
