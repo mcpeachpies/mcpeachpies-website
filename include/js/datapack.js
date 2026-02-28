@@ -1,6 +1,6 @@
 const PAGE = location.search.slice(1);
 
-const WEB_INFO = `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${folderName}/master/website.json`
+const WEB_INFO = `https://raw.githubusercontent.com/${GIT_INFO.ORG}/${PAGE}/master/website.json`
 let data = {};
 
 async function getData() {
